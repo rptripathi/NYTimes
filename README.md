@@ -1,6 +1,6 @@
 # Topic recognition on New York Times articles
 
-<img src="Assets/ErdősLogoNewSmall.png" alt="The Erdős Institute" height=40></img>&nbsp;&nbsp;<img src="Assets/poweredby_nytimes_200a.png" alt="Powered by The New York Times"></img>
+<img src="Assets/ErdosLogoNewSmall.png" alt="The Erdős Institute" height=40></img>&nbsp;&nbsp;<img src="Assets/poweredby_nytimes_200a.png" alt="Powered by The New York Times"></img>
 
 Project created by Ravi Tripathi, Touseef Haider, Ping Wan, Schinella D'Souza, Alessandro Malusà, and Craig Franze for the Erdős Institute Data Science bootcamp, May-Summer 2024 Cohort, mentored by Matthew Graham. Data provided by The New York Times.
 
