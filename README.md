@@ -59,8 +59,8 @@ Given the better performance, we used the latter model to implement a rudimentar
 
 BERTopic is a topic recognition model that uses sentence transformers to embed our documents into a high dimensional space. Then UMAP reduces the dimensionality for clustering, and HDBSCAN performs hierarchical clustering on the data.  
 The representative documents from the identified clusters, or topics, from BERTopic were then fed into a large language model, Ollama, to generate short sensible labels. The model identified 420 emergent topics over the past year and produces time series for those topics to show their popularity over time.  
-![BERT topic distribution](Assets/bert_topics.png)  
-![Bert time series](Assets/bert_time_series.png)  
+![BERT time series](Assets/bert_time_series.png)  
+![BERT time series](Assets/bert_time_series_2.png)  
 Further information on this approach can be found in the [Dinamic BERTopic notebook](Notebooks/dynamicBERTopic.ipynb).
 
 ## Future directions
