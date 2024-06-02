@@ -61,7 +61,7 @@ BERTopic is a topic recognition model that uses sentence transformers to embed o
 The representative documents from the identified clusters, or topics, from BERTopic were then fed into a large language model, Ollama, to generate short sensible labels. The model identified [420 emergent topics](BERT_trends/short_ollama_labels.txt) over the past year and produces time series for those topics to show their popularity over time.  
 ![BERT time series](Assets/bert_time_series.png)  
 ![BERT time series](Assets/bert_time_series_2.png)  
-Investigate these trends for yourself [here][https://nytimestrends.streamlit.app/]! Further information on this approach can be found in the [Dynamic BERTopic notebook](Notebooks/dynamicBERTopic.ipynb).
+Investigate these trends for yourself [here](https://nytimestrends.streamlit.app/)! Further information on this approach can be found in the [Dynamic BERTopic notebook](Notebooks/dynamicBERTopic.ipynb).
 
 ## Future directions
 
