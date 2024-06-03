@@ -37,7 +37,7 @@ Besides the word-per-topic distribution, these models also provide topic-per-doc
 
 ## Data
 
-The dataset we used was obtained from The New York Times via their official API. We considered all available metadata of articles published between May 15th, 2023 and Mat 14th, 2024, for a total of about 42,000 data points. We identified a few fields that seemed to lend themselves to the task and chose for simplicity to focus on one, the abstract.  
+The dataset we used was obtained from The New York Times via their official API. We considered all available metadata of articles published between May 15th, 2023 and May 14th, 2024, for a total of about 42,000 data points. We identified a few fields that seemed to lend themselves to the task and chose for simplicity to focus on one, the abstract.  
 During data exploration we identified two major classes of articles with nearly identical abstracts and no discernible topics, which we discarded alongside data points with invalid abstracts. We then split each abstract into individual words (or *tokens*), including acronyms and year dates, and then disregarded all non-acronym words below three characters in length. We also analyzed the word count distribution after the cleaning process to decide whether to eliminate articles below a certain length.
 
 ![word count distribution](Assets/word_count_distribution.png)
